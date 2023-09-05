@@ -2,10 +2,10 @@
 
 :root {
   --bg-clr: #0f0f0f;
-  --white: #fff;
+  --white: #888888;
   --rleft-bg: #333333;
   --rright-bg: #444444;
-  --primary-text-clr: #db642d;
+  --primary-text-clr: #ffffff;
 }
 
 * {
@@ -100,6 +100,11 @@ h2 {
   color: var(--white);
 }
 
+.resume_left .r_skills ul li a{
+  color: lightgreen;
+}
+
+
 .resume_left .r_hobbies ul {
   display: flex;
   justify-content: center;
@@ -148,7 +153,7 @@ h2 {
 }
 
 .resume_right .r_right_sub p {
-  color: var(--white);
+  color: white;
 }
 
 .resume_right .r_right_sub ul li {
